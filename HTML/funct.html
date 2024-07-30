@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Functions
+        </title>
+        <script>
+            function mul( x , y)
+            {
+                var c = x * y;
+                console.log("x = "+x);
+                console.log("y = "+y);
+                console.log("x * y = "+c);
+            }
+
+mul(20,30)
+
+//Functions with Default Value
+console.log("Functions With Default Values");
+function show (num1, num2=400)
+{
+console.log("num1 = " +num1);
+console.log("num2 = " +num2);
+}
+show(100);
+//Function with Return values
+function add( a, b )
+{
+return a+b;
+}
+var sum = add(10,20);
+console.log(sum);
+
+//Anonymous Function
+setTimeout(function()
+{
+    show(100);
+}, 2000);
+
+//
+// Traditional function expression
+let add2 = function(a, b) {
+    return a + b;
+};
+
+console.log(add2(100,200));
+// Arrow function equivalent
+let add1 = (a, b) => {
+    return a + b;
+};
+
+console.log(add1(400,500));
+
+
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>

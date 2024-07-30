@@ -1,0 +1,127 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "BkApplication",
+            "request": "launch",
+            "mainClass": "com.ltimindtree.bk.BkApplication"
+        },
+        {
+            "type": "java",
+            "name": "EmpApplication",
+            "request": "launch",
+            "mainClass": "com.ltimindtree.emp.EmpApplication"
+        },
+        {
+            "type": "java",
+            "name": "DemoApplication",
+            "request": "launch",
+            "mainClass": "com.ltimindtree.demo.DemoApplication",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "EmsApplication",
+            "request": "launch",
+            "mainClass": "com.ltimindtree.prod.EmsApplication",
+            "projectName": "ems"
+        },
+        {
+            "type": "java",
+            "name": "FlightApplication",
+            "request": "launch",
+            "mainClass": "com.ltimindtree.flight.FlightApplication"
+        },
+        {
+            "type": "java",
+            "name": "EmsApplication",
+            "request": "launch",
+            "mainClass": "com.ltimindtree.ems.EmsApplication",
+            "projectName": "ems"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Bank.Main",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Asset.Main",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "Factorial",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "JDBC.Main",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "HashMap.Main",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "DatabaseDao.DatabaseRecall.Main",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "crudop",
+            "request": "launch",
+            "mainClass": "crudop",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "type": "java",
+            "name": "Crud",
+            "request": "launch",
+            "mainClass": "Crud",
+            "projectName": "root_d0c36c09"
+        },
+        {
+            "name": "Test App",
+            "program": "${workspaceFolder}/__m.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "postDebugTask": "Test App",
+            "type": "pwa-node"
+        },
+        {
+            "name": "Submit App",
+            "program": "${workspaceFolder}/__m.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "postDebugTask": "Submit App",
+            "type": "pwa-node"
+        }
+    ]
+}
